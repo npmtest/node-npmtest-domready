@@ -35,25 +35,48 @@
 ```json
 
 {
-    "name": "domready",
+    "author": {
+        "name": "Dustin Diaz",
+        "url": "http://dustindiaz.com"
+    },
+    "bugs": {
+        "url": "https://github.com/ded/domready/issues"
+    },
+    "dependencies": {},
     "description": "modern domready",
-    "version": "1.0.8",
+    "devDependencies": {
+        "smoosh": ">=0.3.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "91f252e597b65af77e745ae24dd0185d5e26d58c",
+        "tarball": "https://registry.npmjs.org/domready/-/domready-1.0.8.tgz"
+    },
+    "ender": "./src/ender.js",
+    "gitHead": "bddb9f9374d699289953c813961b7121bd040ce7",
     "homepage": "https://github.com/ded/domready",
-    "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
     "keywords": [
         "ender",
         "domready",
         "dom"
     ],
     "main": "./ready.js",
-    "ender": "./src/ender.js",
+    "maintainers": [
+        {
+            "name": "ded"
+        },
+        {
+            "name": "fat"
+        }
+    ],
+    "name": "domready",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/ded/domready.git"
+        "url": "git+https://github.com/ded/domready.git"
     },
-    "devDependencies": {
-        "smoosh": ">=0.3.0"
-    },
+    "scripts": {},
+    "version": "1.0.8",
     "bin": {}
 }
 ```
